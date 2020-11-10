@@ -1,0 +1,196 @@
+{
+	"basics":{
+		"name":"Apoorv Yadav",
+		"role":"Big Data Engineer",
+		"picture":"images/apoorvprofile.jpg",
+		"x_pictureFallback":"images/apoorvprofile.jpg",
+		"x_title":"Hello! Glad you're here ",
+		"startDate":"2019-06-03",
+		"summary_pre":"Going on ",
+		"summary_post":" years of IT Experience. Presently working as a Big Data Developer in Banking and Finance Domain. I'm interested in Data Analytics, Machine Learning and applications of AI in real world.",
+        "location":{
+			"country":"India",
+			"countryCode":"IN",
+			"state":"Karnataka",
+			"city":"Bengaluru"
+		},
+		"profiles":[
+			{
+				"network":"LinkedIn",
+				"username":"Apoorv Yadav",
+				"url":"https://www.linkedin.com/in/apoorv-yadav-a952ab167/",
+				"x_icon":"fab fa-2x fa-linkedin-in"
+			},
+			{
+				"network":"GitHub",
+				"username":"apoorvyadav1111",
+				"url":"https://github.com/apoorvyadav1111",
+				"x_icon":"fab fa-2x fa-github-alt"
+			},
+			{
+				"network":"Medium",
+				"username":"apoorvyadav1111",
+				"url":"https://medium.com/thenoobengineer",
+				"x_icon":"fab fa-2x fa-medium-m"
+			},
+			{
+				"network":"Tableau",
+				"username":"apoorv.yadav",
+				"url":"https://public.tableau.com/profile/apoorv.yadav#!/",
+				"x_icon":"fas fa-2x fa-chart-bar"
+			},
+			{
+				"network":"Mail",
+				"username":"apoorvyadav1111",
+				"url":"mailto:apoorvyadav1111@gmail.com",
+				"x_icon":"fas fa-2x fa-envelope-open"
+			}
+
+		]
+	},
+	"interests":[
+	{
+		"name":"Animals",
+		"x_icon":"fa-paw"
+	},
+	{
+		"name":"Travel",
+		"x_icon":"fa-globe-asia"
+	},
+	{
+		"name":"Games",
+		"x_icon":"fa-gamepad"
+	},
+	{
+		"name":"Technology",
+		"x_icon":"fa-microchip"
+	}
+	]
+	,
+	"skills":[
+		{
+			"name":"Python",
+			"level":"Expert",
+			"keywords":["Languages"]
+		},
+		{
+			"name":"Scala",
+			"level":"Familiar",
+			"keywords":["Languages"]
+		},
+		{
+			"name":"SQL",
+			"level":"Proficient",
+			"keywords":["Languages"]
+		},
+		{
+			"name":"Apache Spark",
+			"level":"Familiar",
+			"keywords":["Big Data"]
+		},
+		{
+			"name":"Apache Hive",
+			"level":"Familiar",
+			"keywords":["Big Data"]
+		},
+		{
+			"name":"Apache Zeppelin",
+			"level":"Familiar",
+			"keywords":["Big Data"]
+		},
+		{
+			"name":"Tableau",
+			"level":"Proficient",
+			"keywords":["Data Viz & Analytics"]
+		},
+		{
+			"name":"Pandas",
+			"level":"Proficient",
+			"keywords":["Data Viz & Analytics"]
+		},
+		{
+			"name":"Matplotlib",
+			"level":"Familiar",
+			"keywords":["Data Viz & Analytics"]
+		},
+		{
+			"name":"Numpy",
+			"level":"Proficient",
+			"keywords":["Machine Learning"]
+		},
+		{
+			"name":"Keras",
+			"level":"Proficient",
+			"keywords":["Machine Learning"]
+		},
+		{
+			"name":"Tensorflow",
+			"level":"Proficient",
+			"keywords":["Machine Learning"]
+		}
+	],
+	"work":[
+		{
+			"company":"Tata Consultancy Services",
+			"position":"Big Data Developer for BFSI",
+			"website":"www.tcs.com",
+			"startDate":"2019-06-03",
+			"endDate":"",
+			"summary":"Joined the CommBank Account, working with the Financial Crime and Reporting team as a Big Data Developer.",
+			"highlights":[]
+		},
+		{
+			"company":"Tata Consultancy Services - ILP",
+			"position":"System Engineer - Trainee",
+			"website":"www.tcs.com",
+			"startDate":"2018-12-17",
+			"endDate":"2019-06-03",
+			"summary":"Started my IT career as a Trainee for a period of six months, had a chance to get fimiliar with all the digital technologies.",
+			"highlights":[]
+		}
+
+	],
+	"education":[
+		{
+			"institution":"Medicaps Institute of Technology and Management, Indore",
+			"area":"Computer Science",
+			"degree":"Bachelor",
+			"startDate":"2015-08-01",
+			"endDate":"2019-06-01",
+			"score":"CGPA 7.59",
+			"courses":[
+				"Object Oriented Programming",
+				"Database Management System",
+				"Software Engineering",
+				"Operating Systems and Architecture",
+				"Data Structures",
+				"Cloud Computing and Big Data"
+			]
+		},
+		{
+			"institution":"Shivpuri Public School, Shivpuri",
+			"area":"Mathematics",
+			"degree":"Senior Secondary",
+			"startDate":"2013-04-01",
+			"endDate":"2015-07-01",
+			"score":"86.6%",
+			"courses":[
+				"English",
+				"Mathematics",
+				"Physics",
+				"Chemistry",
+				"Physical Education"
+			]
+		},
+		{
+			"institution":"Christ Senior Secondary School, Guna",
+			"area":"",
+			"degree":"High School",
+			"startDate":"2000-04-01",
+			"endDate":"2013-03-31",
+			"score":"CGPA 10.0",
+			"courses":[
+			]
+		}
+	]
+}
