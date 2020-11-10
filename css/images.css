@@ -1,0 +1,27 @@
+.has-bg-image {
+    background-image: url('../images/Hero_img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.is-180x180{
+	height:  180px;
+	width: 180px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.skill-list > li{
+	margin: 30px 0 0 0;
+}
+
+.skill-percentage{
+	float: right;
+}
+
+.progress::-webkit-progresss-value{
+	transition: width 0.7s ease
+}
