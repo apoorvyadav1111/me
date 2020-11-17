@@ -1,6 +1,7 @@
 import React from "react"
 import Menu from "./Menu"
 import Resume from "../../resume.json"
+import Theme from "../../theme.json"
 
 class Navigation extends React.Component {
 	constructor(props){
@@ -20,22 +21,23 @@ class Navigation extends React.Component {
 
 	render(){
 		return (
-			<nav className="navbar has-background-grey-dark is-fixed-top" style={{opacity:.7}}>
+			<nav className={"navbar has-background-"+Theme.nav.accent+" "+ Theme.nav.Fixed} style={{opacity:Theme.nav.opacity}}>
 				<div className="container">
 					<div className="navbar-brand">
-						<a href="/" className="navbar-item title has-text-light is-unselectable my-name has-text-weight-bold" style={{ textDecoration:'none' }}>
+						<a href="/" className={"navbar-item title is-unselectable my-name has-text-weight-bold has-text-"+Theme.nav.textColor} style={{ textDecoration:'none' }}>
 						{Resume.basics.name}
 						</a>
 					<span
-						className="navbar-burger burger is-"
+						className={"navbar-burger burger has-background-"+Theme.nav.accent}
 						onClick={this.handleMenuClick}
 					>
-						<span className="has-background-light"></span>
-						<span className="has-background-light"></span>
-						<span className="has-background-light"></span>
+
+						<span className={"has-background-"+Theme.nav.textColor}></span>
+						<span className={"has-background-"+Theme.nav.textColor}></span>
+						<span className={"has-background-"+Theme.nav.textColor}></span>
 					</span>
 				</div>
-				<div  className={ "navbar-menu nav-menu " + (this.state.showMenu ? "is-active" : null)} >
+				<div  className={ "navbar-menu nav-menu " + (this.state.showMenu ? "is-active" : null) +" has-background-"+Theme.nav.accent} >
 					<div className="navbar-end" onClick={this.handleMenuClick}>
 						<Menu text="About Me" href="#aboutMe" />
 						<Menu text="Skills" href="#skills" />

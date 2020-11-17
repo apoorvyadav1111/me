@@ -1,6 +1,7 @@
 import React,{Component} from "react"
 import axios from "axios"
 import Article from "../elements/Article"
+import Theme from "../../theme.json"
 
 async function getMediumFeed(){
 
@@ -62,9 +63,9 @@ class Articles extends Component{
 	}
 	render(){
 		return(
-			<section className="section" id="articles">
+			<section className={"section has-background-"+Theme.articles.background} id="articles">
 				<div className="container">
-					<h1 className="title">Latest Articles</h1>
+					<h1 className={"title has-text-"+Theme.articles.textColor}>Latest Articles</h1>
 					<div className="columns">{this.state.articles}</div>
 				</div>
 			</section>

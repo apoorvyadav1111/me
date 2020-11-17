@@ -1,17 +1,18 @@
 import React from "react";
 import TimelineItem from "./TimelineItem";
 import Resume from "../../resume.json";
+import Theme from "../../theme.json"
 
 function Timeline() {
   return (
-    <div className="timeline is-centered is-danger">
+    <div className={"timeline is-centered is-"+Theme.icon.color}>
       <header className="timeline-header">
-        <span className="tag is-medium is-dark">
+        <span className={"tag is-medium is-"+Theme.experience.textColor}>
           {new Date().getFullYear()}
         </span>
       </header>
-      <div className="timeline-item is-danger">
-        <div className="timeline-marker is-danger"></div>
+      <div className={"timeline-item is-"+Theme.icon.color}>
+        <div className={"timeline-marker is-"+Theme.icon.color}></div>
         <div className="timeline-content"></div>
       </div>
       {Resume.work
@@ -22,7 +23,7 @@ function Timeline() {
           let content = [];
           content.push(
             <header key={i} className="timeline-header">
-              <span className="tag is-danger">{year}</span>
+              <span className={"tag is-"+Theme.icon.color}>{year}</span>
             </header>
           );
           content.push(
@@ -44,8 +45,8 @@ function Timeline() {
           );
           return content;
         })}
-        <div className="timeline-item is-danger is-small">
-        <div className="timeline-marker is-danger"></div>
+        <div className={"timeline-item is-small is-"+Theme.icon.color}>
+        <div className={"timeline-marker is-"+Theme.icon.color}></div>
         </div>
     </div>
   );

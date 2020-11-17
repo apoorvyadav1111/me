@@ -1,13 +1,14 @@
 import React from 'react'
 import Navigation from './Navigation'
 import Resume from '../../resume.json'
+import Theme from "../../theme.json"
 
 // Hero image is the big background image on the webpage
 // For more details, Head here: https://www.w3schools.com/howto/howto_css_hero_image.asp
 
 function Hero(){
 	return (
-		<section className="hero is-dark is-fullheight-with-navbar has-bg-image">
+		<section className={ "hero is-fullheight-with-navbar has-bg-image " + Theme.hero.color}>
 			<div className='hero-head'>
 				<Navigation />
 			</div>
@@ -31,8 +32,8 @@ function Hero(){
 								  className="is-hovered"
 								  title={value.network}
 								>
-									<span className="icon is-medium is-">
-										<i className={value.x_icon} style={{ color:"#fff" }}></i>
+									<span className={ "icon is-medium " + Theme.hero.iconColor}>
+										<i className={value.x_icon} ></i>
 									</span>
 								</a>
 							</div>

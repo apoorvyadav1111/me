@@ -2,6 +2,7 @@ import React from "react"
 import moment from "moment"
 import Badge from "../elements/Badge"
 import Resume from "../../resume.json"
+import Theme from "../../theme.json"
 
 function timeDiff(date){
 	var dy = moment().format("YYYY") - new Date(date).getFullYear();
@@ -17,7 +18,7 @@ function timeDiff(date){
 
 function AboutMe(){
 	return (
-		<section className="section has-background-black-ter" id="aboutMe">
+		<section className={"section has-background-"+Theme.aboutme.background} id="aboutMe">
 			<div className="container has-text-centered">
 				<figure className="image container is-180x180">
 					<img 
@@ -29,10 +30,10 @@ function AboutMe(){
 						onError={(e) => {e.target.onerror = null; e.target.src=Resume.basics.x_pictureFallback}}
 					/>
 				</figure>
-				<p className="subtitle is-4 has-text-grey-light has-text-weight-normal">
+				<p className={"subtitle is-4 has-text-weight-normal has-text-"+Theme.aboutme.textColor}>
 					{Resume.basics.x_title}
 				</p>
-				<p className="subtitle is-5 has-text-white has-text-weight-light" style={{marginLeft:"auto",marginRight:"auto",maxWidth:"36em"}} >
+				<p className={"subtitle is-5 has-text-weight-light has-text-"+Theme.aboutme.textColor} style={{marginLeft:"auto",marginRight:"auto",maxWidth:"36em"}} >
 					{Resume.basics.summary_pre}
 					{timeDiff(new Date(Resume.basics.startDate))}
 					{Resume.basics.summary_post}

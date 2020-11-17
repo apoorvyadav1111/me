@@ -1,4 +1,5 @@
 import React from 'react'
+import Theme from "../../theme.json"
 
 var progress ={
 	Expert:100,
@@ -10,11 +11,11 @@ var progress ={
 function ProgressBar(props){
 	return (
 	<div>
-		<span className="title is-5 is-spaced">{props.text}</span>
-		<span className="subtitle is-6 skill-percentage">{props.level}</span>
+		<span className={"title is-5 is-spaced has-text-"+Theme.skills.textColor}>{props.text}</span>
+		<span className={"subtitle is-6 skill-percentage has-text-"+Theme.skills.secondaryTextColor}>{props.level}</span>
 	<progress 
 		id = "progress-bar"
-		className="progress is-dark"
+		className={"progress is-"+Theme.skills.barColor}
 		value={progress[props.level]}
 		max="100"
 	>
