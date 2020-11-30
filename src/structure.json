@@ -1,0 +1,11 @@
+{
+	"header":"",
+	"content":{
+		"AboutMe":"True",
+		"Skills":"True",
+		"Experience":"True",
+		"Education":"True",
+		"Articles":"True"
+	},
+	"footer":""
+}
