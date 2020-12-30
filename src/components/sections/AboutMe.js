@@ -8,11 +8,12 @@ function timeDiff(date){
 	var dy = moment().format("YYYY") - new Date(date).getFullYear();
 	var dm = moment().format("MM") - new Date(date).getMonth();
 	if (dm>0){
-		return dy+(dm/12);
+		return dy+parseFloat((dm/12).toFixed(1));
 	}
 	if (dm<0){
+		console.log("Here")
 		dm = (12 + parseInt(moment().format("M"))) - new Date(date).getMonth();
-		return (dy-1)+parseFloat((dm/12).toFixed(2));
+		return (dy-1)+parseFloat((dm/12).toFixed(1));
 	}
 }
 
