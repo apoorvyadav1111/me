@@ -1,6 +1,6 @@
 # ReadME
 
-## Credits where it is due-
+## Credits - I am thankful to these brilliant People.
 
 This is a personal website for oneself. 
 
@@ -36,6 +36,9 @@ You can make this your own by following these steps:
 
 ## Contributing
 If you are proficient in React and found a better way to approach something, Feel Free to raise a PR as well as send a mail as a reminder. I would be glad if this can be more helpful
+
+## Like it?
+Star this and the original repo for the efforts.
 
 Thanks,
 Apoorv
