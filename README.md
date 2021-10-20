@@ -2,7 +2,7 @@
 
 ## Credits - I am thankful to these brilliant People.
 
-This is a personal website for oneself. 
+This is a personal website for myself. 
 
 - This is made using ReactJS, Bulma and a help from fellow engineer.
 - One need to update resume.json for making it for self.
@@ -32,7 +32,7 @@ You can make this your own by following these steps:
  - Make you change any Image/Background that is specific to the user i.e. me.
 
 3. **Deploying the website using github-pages:**
-  Since I am not a Front-End Developer from any level, I took help from this article: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+ I took help from this article: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 
 ## Contributing
 If you are proficient in React and found a better way to approach something, Feel Free to raise a PR as well as send a mail as a reminder. I would be glad if this can be more helpful
