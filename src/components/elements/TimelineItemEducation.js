@@ -11,7 +11,7 @@ function TimelineItemEducation(props) {
       </div>
       <div className={"timeline-content has-text-"+Theme.education.textColor}>
         <p className="heading">{props.startDate} - {props.endDate}</p>
-        <h1 className={"title is-4 has-text-"+Theme.education.textColor}>{props.institution}</h1>
+        <h1 className={"title is-4 has-text-"+Theme.education.secondaryTextColor}>{props.institution}</h1>
         <span></span>
         <p className="subtitle is-uppercase has-text-weight-medium has-text-grey is-6">Grade: {props.score}</p>
         <div className="tags">

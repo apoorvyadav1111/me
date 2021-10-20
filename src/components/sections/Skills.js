@@ -9,11 +9,10 @@ function Skills(){
 			<div className="container">
 				<h1 className={"title has-text-"+Theme.skills.textColor}>Skills</h1>
 				<div className="columns">
-
-					<div className="column is-6">
+					<div className="column is-5">
 						<div className="has-text-centered">	
 						<span className={"icon has-text-"+Theme.icon.color}>
-							<i className="fas fa-3x fa-laptop-code"></i>
+							<i className="fas fa-3x fa-language"></i>
 						</span>
 						<h2 className={"title is-5 has-text-"+Theme.skills.textColor}>Programming Languages</h2>
 						</div>
@@ -26,8 +25,8 @@ function Skills(){
 								},{})}
 						/>
 					</div>
-
-					<div className="column is-6">
+					<div className="column is-2"></div>
+					<div className="column is-5">
 						<div className="has-text-centered">	
 						<span className={"icon has-text-"+Theme.icon.color}>
 							<i className="fas fa-3x fa-database"></i>
@@ -48,7 +47,7 @@ function Skills(){
 
 				<div className="columns">
 
-					<div className="column is-6">
+					<div className="column is-5">
 						<div className="has-text-centered">	
 						<span className={"icon has-text-"+Theme.icon.color}>
 							<i className="fas fa-3x fa-chart-line"></i>
@@ -64,8 +63,8 @@ function Skills(){
 								},{})}
 						/>
 					</div>
-
-					<div className="column is-6">
+					<div className="column is-2"></div>
+					<div className="column is-5">
 						<div className="has-text-centered">	
 						<span className={"icon has-text-"+Theme.icon.color}>
 							<i className="fas fa-3x fa-robot"></i>
@@ -82,6 +81,28 @@ function Skills(){
 						/>
 					</div>
 				</div>
+
+				<div className="columns">
+					<div className="column is-3">
+					</div>
+					<div className="column is-5">
+						<div className="has-text-centered">	
+						<span className={"icon has-text-"+Theme.icon.color}>
+							<i className="fas fa-3x fa-laptop-code"></i>
+						</span>
+						<h2 className={"title is-5 has-text-"+Theme.skills.textColor}>Software Development</h2>
+						</div>
+						<SkillsList 
+							skills={Resume.skills
+								.filter(skill => skill.keywords.includes("Software Development"))
+								.reduce((obj,item) => {
+									obj[item.name] = item.level
+									return obj
+								},{})}
+						/>
+					</div>
+				</div>
+
 			</div>
 		</section>
 

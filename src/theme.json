@@ -26,11 +26,12 @@
 	"experience":{
 		"background":"white",
 		"textColor":"dark",
-		"secondaryTextColor":""
+		"tagColor":"white"
 	},
 	"education":{
 		"background":"light",
-		"textColor":"dark"
+		"textColor":"dark",
+		"secondaryTextColor":"grey"
 	},
 	"articles":{
 		"background":"dark",

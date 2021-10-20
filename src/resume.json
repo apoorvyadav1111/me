@@ -7,7 +7,7 @@
 		"x_title":"Hello! Glad you're here ",
 		"startDate":"2019-06-03",
 		"summary_pre":"Going on ",
-		"summary_post":" years of IT Experience. Presently working as a Big Data Developer in Banking and Finance Domain. I'm interested in Data Analytics, Machine Learning and applications of AI in real world.",
+		"summary_post":" years of IT Experience. Presently working as a Big Data Developer in Banking and Finance Domain. I'm interested in Data Analytics, Software Development, Machine Learning and applications of AI in real world.",
         "location":{
 			"country":"India",
 			"countryCode":"IN",
@@ -30,7 +30,7 @@
 			{
 				"network":"Medium",
 				"username":"apoorvyadav1111",
-				"url":"https://medium.com/thenoobengineer",
+				"url":"https://medium.com/@apoorvyadav1111",
 				"x_icon":"fab fa-2x fa-medium-m"
 			},
 			{
@@ -68,6 +68,21 @@
 	]
 	,
 	"skills":[
+		{
+			"name":"Django",
+			"level":"Familiar",
+			"keywords":["Software Development"]
+		},
+		{
+			"name":"Graphene",
+			"level":"Familiar",
+			"keywords":["Software Development"]
+		},
+		{
+			"name":"React",
+			"level":"Familiar",
+			"keywords":["Software Development"]
+		},
 		{
 			"name":"Python",
 			"level":"Expert",
@@ -136,15 +151,24 @@
 			"website":"www.tcs.com",
 			"startDate":"2019-06-03",
 			"endDate":"",
-			"summary":"Joined the CommBank Account, working with the Financial Crime and Reporting team as a Big Data Developer.",
-			"highlights":[]
+			"summary":"Joined the Commonwealth Bank of Australia account, working with the Financial Crime and Reporting team as a Big Data Developer.",
+			"highlights":["Learning Award", "On the Spot Award","TM&R Recognition-June 2021"]
 		},
 		{
 			"company":"Tata Consultancy Services - ILP",
 			"position":"System Engineer - Trainee",
 			"website":"www.tcs.com",
-			"startDate":"2018-12-17",
-			"endDate":"2019-06-03",
+			"startDate":"2019-01-01",
+			"endDate":"2019-04-01",
+			"summary":"Started my IT career as a Trainee for a period of three months, had a chance to get fimiliar with all the digital technologies.",
+			"highlights":[]
+		},
+		{
+			"company":"Codenscious Technologies Pvt Ltd",
+			"position":"Industrial Trainee",
+			"website":"https://www.linkedin.com/company/codenscious-technologies/",
+			"startDate":"2018-06-01",
+			"endDate":"2019-07-15",
 			"summary":"Started my IT career as a Trainee for a period of six months, had a chance to get fimiliar with all the digital technologies.",
 			"highlights":[]
 		}
@@ -152,12 +176,12 @@
 	],
 	"education":[
 		{
-			"institution":"Medicaps Institute of Technology and Management, Indore",
-			"area":"Computer Science",
-			"degree":"Bachelor",
+			"institution":"Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, India",
+			"area":"Computer Science & Engineering",
+			"degree":"Bachelor of Engineering",
 			"startDate":"2015-08-01",
 			"endDate":"2019-06-01",
-			"score":"CGPA 7.59",
+			"score":"CGPA 7.64",
 			"courses":[
 				"Object Oriented Programming",
 				"Database Management System",
@@ -168,11 +192,11 @@
 			]
 		},
 		{
-			"institution":"Shivpuri Public School, Shivpuri",
+			"institution":"Shivpuri Public School, Shivpuri, India",
 			"area":"Mathematics",
-			"degree":"Senior Secondary",
-			"startDate":"2013-04-01",
-			"endDate":"2015-07-01",
+			"degree":"Senior Secondary(XII CBSE)",
+			"startDate":"2014-04-01",
+			"endDate":"2015-04-01",
 			"score":"86.6%",
 			"courses":[
 				"English",
@@ -185,9 +209,9 @@
 		{
 			"institution":"Christ Senior Secondary School, Guna",
 			"area":"",
-			"degree":"High School",
-			"startDate":"2000-04-01",
-			"endDate":"2013-03-31",
+			"degree":"High School(X CSBE)",
+			"startDate":"2013-04-01",
+			"endDate":"2013-04-01",
 			"score":"CGPA 10.0",
 			"courses":[
 			]

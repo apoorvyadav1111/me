@@ -10,9 +10,19 @@ function TimelineItem(props) {
         </span>
       </div>
       <div className={"timeline-content has-text-"+Theme.experience.textColor}>
-        <p className={"heading has-text-"+Theme.experience.textColor}>{props.date}</p>
+        <p className={"tag is-"+Theme.icon.color+" color-"+Theme.experience.tagColor}>{props.date}</p>
         <h1 className={"title is-4 has-text-"+Theme.experience.textColor}>{props.company}</h1>
         <p style={{ maxWidth: "25em" }}>{props.summary}</p>
+        <div className={"tags"}>
+        {
+          props.highlights
+          .map((item) => {
+            return(
+            <span className={"tag is-black color-danger"}>{item}</span>
+            )}
+          )
+        }
+        </div>
       </div>
     </div>
   );

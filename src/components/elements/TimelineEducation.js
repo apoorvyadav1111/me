@@ -43,6 +43,7 @@ function TimelineEducation() {
                     institution={item.institution}
                     score={item.score}
                     courses={item.courses}
+                    degree={item.degree}
                   />
                 );
               })
